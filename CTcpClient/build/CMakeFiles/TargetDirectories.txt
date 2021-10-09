@@ -1,0 +1,3 @@
+S:/C++/Socket-Client/CTcpClient/build/CMakeFiles/CTcpClient.dir
+S:/C++/Socket-Client/CTcpClient/build/CMakeFiles/edit_cache.dir
+S:/C++/Socket-Client/CTcpClient/build/CMakeFiles/rebuild_cache.dir

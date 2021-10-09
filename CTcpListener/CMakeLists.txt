@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.1.0)
+project(CTcpServer)
+add_executable(CTcpServer main.cpp CTcpListener.h CTcpListener.cpp Qotd.h Qotd.cpp)
+if(WIN32)
+    target_link_libraries(CTcpServer wsock32 ws2_32)
+endif()

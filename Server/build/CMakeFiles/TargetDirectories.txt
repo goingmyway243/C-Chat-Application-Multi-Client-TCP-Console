@@ -1,0 +1,3 @@
+S:/C++/Socket-Client/Server/build/CMakeFiles/Server.dir
+S:/C++/Socket-Client/Server/build/CMakeFiles/edit_cache.dir
+S:/C++/Socket-Client/Server/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.1.0)
+project(Client)
+add_executable(Client main.cpp)
+if(WIN32)
+    target_link_libraries(Client wsock32 ws2_32)
+endif()

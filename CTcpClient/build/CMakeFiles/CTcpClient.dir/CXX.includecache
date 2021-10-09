@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+S:/C++/Socket-Client/CTcpClient/CTcpClient.cpp
+CTcpClient.h
+S:/C++/Socket-Client/CTcpClient/CTcpClient.h
+
+S:/C++/Socket-Client/CTcpClient/CTcpClient.h
+iostream
+-
+WS2tcpip.h
+-
+string
+-
+thread
+-
+conio.h
+-
+

@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+S:/C++/Socket-Client/CTcpListener/CTcpListener.cpp
+CTcpListener.h
+S:/C++/Socket-Client/CTcpListener/CTcpListener.h
+thread
+-
+
+S:/C++/Socket-Client/CTcpListener/CTcpListener.h
+iostream
+-
+string
+-
+WS2tcpip.h
+-
+thread
+-
+sstream
+-
+

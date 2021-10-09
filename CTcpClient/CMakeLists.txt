@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.0)
+project(CTcpClient)
+add_executable(CTcpClient main.cpp CTcpClient.h CTcpClient.cpp)
+if(WIN32)
+    target_link_libraries(CTcpClient wsock32 ws2_32)
+endif()
